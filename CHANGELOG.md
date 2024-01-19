@@ -1,5 +1,35 @@
 # Changelog
 
+## [10.4.0](https://github.com/npm/cli/compare/v10.3.0...v10.4.0) (2024-01-19)
+
+### Features
+
+* [`6d5f9ac`](https://github.com/npm/cli/commit/6d5f9acd0dc7f755a9ef4d27e1dac7076ec7e469) [#7133](https://github.com/npm/cli/pull/7133) dedupe - display difference when `--dry-run` is enabled (#7133) (@Blaumaus)
+
+### Bug Fixes
+
+* [`d4ebfba`](https://github.com/npm/cli/commit/d4ebfba91991423b52edf5f9431424faa6618073) [#7157](https://github.com/npm/cli/pull/7157) use util.stripVTControlCharacters instead of strip-ansi (@wraithgar)
+* [`81c95c7`](https://github.com/npm/cli/commit/81c95c7de71b40831ad46356d75ed56b20c66372) [#7063](https://github.com/npm/cli/pull/7063) don't reset update notifier duration on every check (#7063) (@wraithgar)
+
+### Documentation
+
+* [`67ab0f7`](https://github.com/npm/cli/commit/67ab0f745ad182fa8250cc1da53b618df2e0d95a) [#7142](https://github.com/npm/cli/pull/7142) update: Replace comma with period in run on sentence (#7142) (@DanKaplanSES)
+* [`05c69dc`](https://github.com/npm/cli/commit/05c69dc7ac70d27f1ec1d58ea0dd7111770fd0aa) [#7150](https://github.com/npm/cli/pull/7150) config: State default configuration file affected by `npm config set` (#7150) (@DanKaplanSES)
+* [`44f4518`](https://github.com/npm/cli/commit/44f45187ef8ee20c373e89407f3c32708bef9f0f) [#7149](https://github.com/npm/cli/pull/7149) Link to the config command in the npm configuration description (#7149) (@DanKaplanSES)
+* [`dd5699f`](https://github.com/npm/cli/commit/dd5699f7f0dcf9e5ad1c5549f3eaacaa1715f8eb) [#7152](https://github.com/npm/cli/pull/7152) update: Fix a typo and remove unneeded statement (#7152) (@DanKaplanSES)
+
+### Dependencies
+
+* [`739634d`](https://github.com/npm/cli/commit/739634d76168f438934f1f8287618dabe2f3b968) [#7157](https://github.com/npm/cli/pull/7157) remove strip-ansi
+* [`162c82e`](https://github.com/npm/cli/commit/162c82e845d410ede643466f9f8af78a312296cc) [#7148](https://github.com/npm/cli/pull/7148) `pacote@17.0.6` (#7148) (@bdehamer)
+* [`a50b03b`](https://github.com/npm/cli/commit/a50b03b10046cf769cd328df96adcf292db5c067) [#7141](https://github.com/npm/cli/pull/7141) `sigstore@2.2.0` (#7141) (@bdehamer)
+* [`f696b51`](https://github.com/npm/cli/commit/f696b517a39bea1be0f7116983a5b4c8ed6f01b7) [#7132](https://github.com/npm/cli/pull/7132) `@sigstore/tuf@2.3.0` (#7132) (@bdehamer)
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpublish-v9.0.4): `libnpmpublish@9.0.4`
+
+### Chores
+
+* [`0d96080`](https://github.com/npm/cli/commit/0d96080fa8c08b5eb77bbd6ae64111379fa24465) [#7162](https://github.com/npm/cli/pull/7162) release: do not exclude docs directory from CLI release commits (#7162) (@lukekarrys)
+
 ## [10.3.0](https://github.com/npm/cli/compare/v10.2.5...v10.3.0) (2024-01-10)
 
 ### Features
